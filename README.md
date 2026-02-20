@@ -9,15 +9,12 @@ The projects cover diverse domains including climate analytics, healthcare, fina
 
 Projects Overview
 
-1. Climate Prediction (climate_pred.ipynb)
-	•	Objective: Predict precipitation values using historical climate data.
-	•	Techniques used:
-	  •	Data preprocessing & filtering observed values
-	  •	Feature engineering
-	  •	Random Forest Regression
-	•	Evaluation metrics: MAE, MSE, R²
-	•	Key focus: Environmental data modeling and regression analysis
-
+1. Climate Variable Prediction (climate_pred.ipynb)
+	•	Objective: Analyze and predict multiple climate indicators — temperature (nasa gistemp), global mean sea level (GMSL), and precipitation (noaa ghcn) — using historical climate data and machine learning models.
+	•	Climate Variables Modeled: Temperature trends, Global Mean Sea Level (GMSL), Precipitation patterns
+	•	Techniques Used: Data preprocessing and cleaning, Exploratory Data Analysis (EDA), Feature engineering, Linear Regression and Random Forest Regression
+	•	Evaluation Metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), R-squared (R²)
+	•	Key Focus: Multi-variable climate modeling, non-linear regression, and environmental data analysis for understanding long-term climate trends.
 2. Customer Support Ticket Analysis (tickets.ipynb)
 	•	Objective: Analyze and model customer support ticket data.
 	•	Techniques used:
